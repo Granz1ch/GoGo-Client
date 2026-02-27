@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gogoclient",
+  "version": "1.0.0-PRO",
+  "name": "GogoClient",
+  "description": "Advanced Multi-Version Client with TCP Bypass",
+  "authors": ["YourName"],
+  "contact": { "sources": "https://github.com/youruser/GogoClient" },
+  "license": "MIT",
+  "icon": "assets/gogoclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.gogoclient.GogoClient" ]
+  },
+  "mixins": [ "gogoclient.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
